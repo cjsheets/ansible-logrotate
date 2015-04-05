@@ -1,0 +1,6 @@
+---
+
+- name: Installing package
+  apt:
+  	pkg: "{{ logrotate_package }}"
+  	state: present
